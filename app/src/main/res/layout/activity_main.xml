@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="@string/populate_the_form_below_and_save"
+        android:text="@string/Enter the Client's details:-"
         android:textSize="16sp" />
 
     <EditText
@@ -39,16 +39,32 @@
 
 
     <EditText
-        android:id="@+id/datepicker1"
+        android:id="@+id/date1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/date_issued_renew" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="#d4d4d4"
+        android:hint="Date of Issue..."
+        android:padding="15dp"
+        android:textColor="#897"
+        android:textColorHint="#090"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
 
     <EditText
         android:id="@+id/datepicker2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/expiry_date" />
+        android:layout_centerHorizontal="true"
+        android:background="#d4d4d4"
+        android:hint="Date of Expiry..."
+        android:padding="15dp"
+        android:textColor="#897"
+        android:textColorHint="#090"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
 
     <LinearLayout
