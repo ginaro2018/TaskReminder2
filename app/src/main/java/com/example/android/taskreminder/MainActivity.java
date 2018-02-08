@@ -6,12 +6,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.view.MenuItem;
 
 
 public class MainActivity extends AppCompatActivity {
     DbHelper myDb;
     EditText name, email, phone, policyType, dateissued, dateExpired;
     Button btnAddClient, delButton;
+     EditText date;
+    DatePickerDialog datePickerDialog;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
         //calling the AddClient method inside onCreate method
         AddClient();
+        myDate();
+        myDate2();
     }
 
     /*
@@ -60,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // the date method
+    // the date1 method
     public void myDate() {
         date.setOnClickListener(
                 new View.OnClickListener() {
