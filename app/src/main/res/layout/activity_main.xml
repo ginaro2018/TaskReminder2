@@ -2,66 +2,56 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="15dp"
-    android:background="@drawable/border"
-    android:textColor="#00FF00"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:textColor="#00FF00">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="POPULATE THE FORM BELOW AND 'SAVE':-"
-        android:textSize="16dp" />
+        android:text="@string/populate_the_form_below_and_save"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name of the insured" />
+        android:hint="@string/name_of_the_insured" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email of insured" />
+        android:hint="@string/email_of_insured" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Phone nummber of insured" />
+        android:hint="@string/phone_nummber_of_insured"
+        android:inputType="phone" />
 
     <EditText
         android:id="@+id/editText4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Type of the policy" />
+        android:hint="@string/type_of_the_policy" />
 
 
     <EditText
         android:id="@+id/datepicker1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="true"
-        android:editable="false"
-        android:focusable="false"
-        android:hint="Date Issued/renew" />
+        android:hint="@string/date_issued_renew" />
 
     <EditText
         android:id="@+id/datepicker2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="true"
-        android:editable="false"
-        android:focusable="false"
-        android:hint="Expiry date" />
-
+        android:hint="@string/expiry_date" />
 
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
@@ -70,13 +60,18 @@
             android:id="@+id/button_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add Client" />
+            android:text="@string/add_client" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
 
         <Button
             android:id="@+id/buttonSrc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="delete" />
+            android:text="@string/delete" />
 
     </LinearLayout>
 </LinearLayout>

@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Task Reminder</string>
     <string name="action_settings">Action Settings</string>
+    <string name="populate_the_form_below_and_save">POPULATE THE FORM BELOW AND \'SAVE\':-</string>
+    <string name="name_of_the_insured">Name of the insured</string>
+    <string name="email_of_insured">Email of insured</string>
+    <string name="phone_nummber_of_insured">Phone nummber of insured</string>
+    <string name="type_of_the_policy">Type of the policy</string>
+    <string name="date_issued_renew">Date Issued/renew</string>
+    <string name="expiry_date">Expiry date</string>
+    <string name="add_client">Add Client</string>
+    <string name="delete">delete</string>
 </resources>
