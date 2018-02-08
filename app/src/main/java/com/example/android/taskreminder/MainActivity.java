@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         myDb = new DbHelper( this );
 
 
-        // initialize the editTexts and buttons
+        // initialize the editTexts and buttons(casting)
         name = (EditText) findViewById( R.id.editText1 );
         email = (EditText) findViewById( R.id.editText2 );
         phone = (EditText) findViewById( R.id.editText3 );
