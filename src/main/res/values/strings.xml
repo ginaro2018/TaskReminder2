@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Task Reminder</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="populate_the_form_below_and_save">POPULATE THE FORM BELOW AND \'SAVE\':-</string>
+    <string name="enter_client_details">Enter Client\'\s details: </string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_of_insured">Email address</string>
+    <string name="phone_number_of_insured">Phone number</string>
+    <string name="type_of_policy">Type of policy</string>
+    <string name="date_of_issue">Date of Issue</string>
+    <string name="date_issued_renew">Date Issued/renew</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="add_client">Add Client</string>
+    <string name="delete">Delete</string>
+</resources>

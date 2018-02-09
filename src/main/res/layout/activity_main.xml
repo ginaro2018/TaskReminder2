@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_client_details"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:textColorHint="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:textColorHint="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_of_insured"
+        android:textColorHint="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number_of_insured"
+        android:inputType="phone"
+        android:textColorHint="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_of_policy"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/datepicker1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/date_of_issue"
+        android:textColorHint="@color/colorAccent" />
+
+
+    <EditText
+        android:id="@+id/datepicker2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expiry_date"
+        android:textColorHint="@color/colorAccent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:text="@string/add_client"
+            android:textColor="@color/textButton"
+            android:background="@drawable/button_layout"/>
+
+        <Button
+            android:id="@+id/buttonSrc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:text="@string/delete"
+            android:textColor="@color/textButton"
+            android:background="@drawable/button_layout"/>
+
+    </RelativeLayout>
+</LinearLayout>
