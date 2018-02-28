@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp" >
+    android:padding="20dp"
+    tools:context="com.example.android.taskreminder.MainActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -15,17 +17,17 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/idNo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/first_name"
+        android:hint="ID Number"
         android:textColorHint="@color/colorAccent"/>
 
     <EditText
-        android:id="@+id/editText15"
+        android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/last_name"
+        android:hint="@string/client_name"
         android:textColorHint="@color/colorAccent"/>
 
     <EditText
@@ -75,21 +77,12 @@
             android:id="@+id/button_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
             android:padding="10dp"
-            android:text="@string/add_client"
+            android:textAllCaps="false"
+            android:text="@string/submit_button"
             android:textColor="@color/textButton"
-            android:background="@drawable/button_layout"/>
-
-        <Button
-            android:id="@+id/buttonSrc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:padding="10dp"
-            android:text="@string/delete"
-            android:textColor="@color/textButton"
-            android:background="@drawable/button_layout"/>
+            android:background="@color/colorPrimaryDark"/>
 
     </RelativeLayout>
 </LinearLayout>
