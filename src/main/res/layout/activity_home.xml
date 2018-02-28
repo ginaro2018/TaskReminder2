@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:padding="50dp"
+    tools:context="com.example.android.taskreminder.HomeActivity">
+
+    <Button
+        android:id="@+id/add_client"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_client"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/textButton"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/view_client"
+        android:layout_width="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/view_client"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/textButton"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/delete_client"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_client"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/textButton"
+        android:background="@color/colorPrimaryDark" />
+
+
+
+</LinearLayout>
